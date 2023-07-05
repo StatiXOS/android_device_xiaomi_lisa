@@ -5,6 +5,7 @@
 #
 
 DEVICE_PATH := device/xiaomi/lisa
+BUILD_BROKEN_VENDOR_PROPERTY_NAMESPACE := true
 
 # Inherit from sm8350-common
 include device/xiaomi/sm8350-common/BoardConfigCommon.mk
