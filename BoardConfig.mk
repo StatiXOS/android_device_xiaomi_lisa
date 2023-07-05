@@ -13,6 +13,9 @@ include device/xiaomi/sm8350-common/BoardConfigCommon.mk
 # Board
 TARGET_BOOTLOADER_BOARD_NAME := lisa
 
+# Density
+TARGET_SCREEN_DENSITY := 400
+
 # Kernel modules
 BOOT_KERNEL_MODULES := \
     goodix_core.ko \
