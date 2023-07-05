@@ -7,6 +7,11 @@
 # Inherit from sm8350-common
 $(call inherit-product, device/xiaomi/sm8350-common/common.mk)
 
+# Camera
+PRODUCT_PACKAGES += \
+    libMegviiFacepp-0.5.2 \
+    libmegface
+
 # Kernel
 TARGET_KERNEL_DIR ?= device/xiaomi/lisa-kernel
 LOCAL_KERNEL := $(TARGET_KERNEL_DIR)/Image
