@@ -1,0 +1,5 @@
+#
+# CN variant specific props
+#
+ro.product.product.marketname=Mi 11 LE
+ro.product.product.model=2107119DC

@@ -1,0 +1,7 @@
+#
+# INDIA variant specific props
+#
+ro.product.oem.marketname=Xiaomi 11 Lite NE
+ro.product.oem.model=2109119DI
+ro.product.oem.name=lisa_in
+vendor.usb.product_string=Xiaomi 11 Lite NE

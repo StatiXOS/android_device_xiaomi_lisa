@@ -1,0 +1,7 @@
+#
+# CN variant specific props
+#
+ro.product.oem.marketname=Mi 11 LE
+ro.product.oem.model=2107119DC
+ro.product.oem.name=lisa
+vendor.usb.product_string=Mi 11 LE

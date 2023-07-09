@@ -25,11 +25,8 @@ DEVICE_PACKAGE_OVERLAYS += \
 
 # Overlays-RRO
 PRODUCT_PACKAGES += \
-    lisaCNSettingsProviderOverlay \
     lisaCNWifiOverlay \
-    lisaGLSettingsProviderOverlay \
     lisaGLWifiOverlay \
-    lisaINSettingsProviderOverlay \
     lisaINWifiOverlay
 
 # Soong namespaces
@@ -48,6 +45,11 @@ PRODUCT_COPY_FILES += \
 # Rootdir
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/init.lisa.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.lisa.rc
+
+# Variant Properties
+PRODUCT_COPY_FILES += \
+    $(call find-copy-subdir-files,odm.*.prop,$(LOCAL_PATH)/props/,$(TARGET_COPY_OUT_ODM)) \
+    $(call find-copy-subdir-files,product.*.prop,$(LOCAL_PATH)/props/,$(TARGET_COPY_OUT_PRODUCT))
 
 # WiFi Display
 PRODUCT_SYSTEM_PROPERTIES += \

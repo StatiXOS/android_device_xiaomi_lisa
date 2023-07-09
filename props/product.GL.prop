@@ -1,0 +1,5 @@
+#
+# GL variant specific props
+#
+ro.product.oem.marketname=Xiaomi 11 Lite 5G NE
+ro.product.oem.model=2109119DG
