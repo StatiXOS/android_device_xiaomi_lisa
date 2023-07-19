@@ -24,15 +24,8 @@
     <dimen name="physical_power_button_center_screen_location_y">1060px</dimen>
 
     <!-- The padding around the statusbar -->
-    <dimen name="status_bar_padding_top">9dp</dimen>
+    <dimen name="status_bar_padding_top">8dp</dimen>
     <dimen name="status_bar_padding_start">4dp</dimen>
     <dimen name="status_bar_padding_end">4dp</dimen>
-    <dimen name="rounded_corner_content_padding">16dp</dimen>
-
-    <!-- Height of the status bar header bar when on Keyguard (match status_bar_height) -->
-    <dimen name="status_bar_header_height_keyguard">@*android:dimen/status_bar_height</dimen>
-
-    <!-- Padding between signal cluster and battery icon -->
-    <dimen name="signal_cluster_battery_padding">4dp</dimen>
 
 </resources>
