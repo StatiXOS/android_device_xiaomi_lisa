@@ -28,4 +28,6 @@
     <dimen name="status_bar_padding_start">4dp</dimen>
     <dimen name="status_bar_padding_end">4dp</dimen>
 
+    <!--  Total minimum padding to enforce to ensure that the dot can always show  -->
+    <dimen name="ongoing_appops_dot_min_padding">16dp</dimen>
 </resources>
